@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+
+import { Provider } from 'react-redux';
 import './App.css';
+// import Comp1 from './components/Comp_1';
+// import Comp2 from './components/Comp_2';
+//  import LifeCycle from './components/LifeCycle';
+import ReduxComp1 from './components/Reduxcomp1';
+import ReduxComp2 from './components/Reduxcomp2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+  {/* <LifeCycle/> */}
+  {/* <Comp1/>
+  <Comp2/> */}
+  
+  <ReduxComp1/>
+  <ReduxComp2/>
+  
+</>
   );
 }
 
